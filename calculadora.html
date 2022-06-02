@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <!---fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+<header>
+    <h1>Calculadora</h1>
+</header>
+
+<section>
+
+    <div id="dados">
+        <p>valor 1: <input type="number" name="inicio" id="txti"></p>
+        <!-- on change = quando mudar -->
+        Operação:
+        <select name="oper" id="oper" >
+            <option value="1">Somar</option>
+            <option value="2">Subtrair</option>
+            <option value="3">Multiplicar</option>
+            <option value="4">Dividir</option>
+        </select>
+        <p>valor 2: <input type="number" name="fim" id="txtf"></p>
+        <p>
+            <input type="button" value="calcular" onclick="calcular()">
+        </p>
+    
+    </div>
+
+
+    <div id="res">
+        Resultado
+    </div>
+
+</section>
+
+<footer>
+    <p>Aprendendo a programar</p>
+</footer>
+
+
+
+<script src="calculadora.js"></script>
+
+    
+</body>
+</html>

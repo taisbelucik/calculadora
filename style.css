@@ -1,0 +1,49 @@
+body{
+    background: rgb(208, 127, 246);
+    font: 'Nunito', sans-serif;
+
+}
+
+header{
+    color: white;
+    text-align: center;
+
+}
+
+input{
+    border-radius: 15px;
+    border-color: rgb(205, 205, 212);
+}
+
+section{
+    background: rgb(226, 181, 249);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(95, 93, 93);
+
+}
+
+select{
+    border-radius: 15px;
+}
+
+
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+#imagem{
+    width: 500px;
+   
+}
+
+div{
+    text-align: center;
+}
+
